@@ -1,0 +1,178 @@
+.flexed-columns > div {
+  width: 50%;
+}
+
+
+#delivery-details {
+}
+
+
+#delivery-details .td-width {
+  width: 30%;
+}
+
+#delivery-details #tr-receipt:hover {
+  cursor: pointer;
+  background-color: rgba(179, 74, 74, 0.3);
+
+}
+
+#delivery-details .component-heading {
+  padding: 1em .5em;
+}
+
+#delivery-details .component-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em .5em;
+}
+
+#contract-data .flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contract-data .content-box {
+  border: 1px dotted #000;
+}
+
+#contract-data .content-box h4 {
+  margin: 0;
+  padding: .2em .5em;
+  background-color: #DDD;
+}
+
+#contract-data .content-box > * {
+  margin: 0;
+  padding: .25em .5em;
+}
+
+#contract-data .customer-no {
+  font-weight: bold;
+}
+
+#contract-data .int-no {
+  font-weight: bold;
+}
+
+#contract-vehicle {
+  max-width: 250px;
+}
+
+#contract-vehicle .reg-doc-location {
+  font-weight: bold;
+}
+
+#delivery-dates .delivery-date-arranged {
+  display: flex;
+  justify-content: space-around;
+}
+
+#delivery-dates .delivery-date-arranged.not-selected {
+  background-color: rgba(255, 0, 0, .2);
+}
+
+#delivery-dates .delivery-date-arranged > * {
+  width: 100px;
+}
+
+#delivery-dates h5 {
+  margin: .25em 0;
+}
+
+#delivery-dates .no-date-delivery-arranged {
+  color: #F00;
+  margin: 0;
+}
+
+#contract-financing .advance-payment {
+  color: #F00;
+  font-weight: bold;
+}
+
+/* -------------------------------------------------------------------------- */
+
+#contract-status .status-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#contract-status .status-date {
+  font-size: .8em;
+  padding-left: .5em;
+}
+
+
+#contract-status .status-item.checked,
+#contract-status .status-item.checked ._2jVLS>.dXU7C {
+  color: #000;
+}
+
+#contract-status .status-item.checked ._2jVLS>._1CXAo.nSz7s {
+  background-color: rgb(36, 148, 0);
+}
+
+/* -------------------------------------------------------------------------- */
+
+#task-list thead th {
+  text-align: left;
+}
+
+#task-list label._3Tq32 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+#open-payments {
+  text-align: right;
+  font-weight: bold;
+}
+
+#open-payments.unpaid {
+  color: #F00;
+}
+
+#open-payments.paid {
+  color: rgba(0,155,50,1);
+}
+
+#open-payments.overpaid {
+  color: #AC00FF;
+}
+
+#contract-documents th.seller-checked,
+#contract-documents th.dispo-checked,
+#contract-documents td.seller-checked,
+#contract-documents td.dispo-checked {
+  width: 100px;
+  text-align: center;
+}
+
+#contract-documents th.document-id {
+  text-align: left;
+}
+
+#contract-documents table.document-group {
+  margin-bottom: 1em;
+}
+
+#contract-documents table.document-group tr.missing {
+  color: #F00;
+  font-weight: bold;
+}
+
+#confirm-all-docs {
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+table tr:nth-child(2n) {
+  background-color: rgba(0, 0, 0, .05);
+}

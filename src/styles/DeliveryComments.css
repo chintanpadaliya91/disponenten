@@ -1,0 +1,44 @@
+#delivery-comments-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+#delivery-comments-list li {
+  margin-bottom: .5em;
+}
+
+#delivery-comments-list .comment-head {
+  font-weight: bold;
+  margin-bottom: .1em;
+  color: rgba(0, 65, 255, .5);
+}
+
+#delivery-comments-list .comment-text {
+  white-space: normal;
+}
+
+#add-delivery-comment {
+  display: flex;
+}
+
+#add-delivery-comment-text {
+  width: auto;
+}
+
+#btn-add-delivery-comment {
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  margin-left: 1em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #3f51b5;
+  color: #FFF;
+}
+
